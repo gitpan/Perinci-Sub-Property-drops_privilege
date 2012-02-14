@@ -1,0 +1,21 @@
+Revision history for Perinci-Sub-property-drops_privilege
+
+0.03     2012-02-12
+
+         - Rename dist from Sub-Spec-Clause-drops_privilege to
+         Perinci-Sub-property-drops_privilege.
+
+         - Value now changed from boolean to string ('', 'temporary', or
+           'permanent').
+
+         - Add test.
+
+
+0.02     2011-08-31
+
+         Fixed some typos.
+
+
+0.01     2011-08-31
+
+         First release.
