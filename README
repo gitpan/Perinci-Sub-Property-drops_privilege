@@ -3,14 +3,14 @@ NAME
     privilege during running
 
 VERSION
-    version 0.03
+    version 0.04
 
 SYNOPSIS
      # in your function metadata
      drops_privilege => 'temp'
 
 DESCRIPTION
-    Valid values: '', 'temporary', or 'permanent'.
+    Valid values: '', 'temporary' (or 'temp'), or 'permanent' (or 'perm').
 
     This property declares that function drops privilege (either temporarily
     by setting EUID ($>), or permanently by setting UID ($<)) during

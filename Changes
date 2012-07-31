@@ -1,6 +1,11 @@
 Revision history for Perinci-Sub-property-drops_privilege
 
-0.03     2012-02-12
+0.04     2012-07-31 (SHARYANTO)
+
+         No functional changes. Update to wrapping protocol version 2.
+
+
+0.03     2012-02-12 (SHARYANTO)
 
          - Rename dist from Sub-Spec-Clause-drops_privilege to
          Perinci-Sub-property-drops_privilege.
@@ -11,11 +16,11 @@ Revision history for Perinci-Sub-property-drops_privilege
          - Add test.
 
 
-0.02     2011-08-31
+0.02     2011-08-31 (SHARYANTO)
 
          Fixed some typos.
 
 
-0.01     2011-08-31
+0.01     2011-08-31 (SHARYANTO)
 
          First release.

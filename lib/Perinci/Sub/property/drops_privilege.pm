@@ -6,7 +6,7 @@ use warnings;
 
 use Perinci::Util qw(declare_property);
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 declare_property(
     name => 'drops_privilege',
@@ -14,8 +14,9 @@ declare_property(
     schema => ['bool' => {default=>0}],
     wrapper => {
         meta => {
+            v       => 2,
             # should be done quite immediately after eval
-            prio => 20,
+            prio    => 20,
             convert => 1,
         },
         handler => sub {
@@ -46,7 +47,7 @@ Perinci::Sub::property::drops_privilege - Declare that function drops privilege 
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -55,7 +56,7 @@ version 0.03
 
 =head1 DESCRIPTION
 
-Valid values: '', 'temporary', or 'permanent'.
+Valid values: '', 'temporary' (or 'temp'), or 'permanent' (or 'perm').
 
 This property declares that function drops privilege (either temporarily by
 setting EUID ($>), or permanently by setting UID ($<)) during execution. Usually
