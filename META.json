@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Perinci-Sub-property-drops_privilege",
+   "name" : "Perinci-Sub-Property-drops_privilege",
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -26,24 +26,25 @@
       },
       "runtime" : {
          "requires" : {
-            "Perinci::Sub::Wrapper" : "0.24",
             "Perinci::Util" : 0,
             "perl" : "5.010000"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Perinci::Sub::Wrapper" : "0.30",
+            "Test::More" : "0.96",
+            "Test::Perinci::Sub::Wrapper" : 0
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://search.cpan.org/dist/Perinci-Sub-property-drops_privilege/",
+      "homepage" : "http://search.cpan.org/dist/Perinci-Sub-Property-drops_privilege/",
       "repository" : {
-         "url" : "http://github.com/sharyanto/perl-Perinci-Sub-property-drops_privilege"
+         "url" : "http://github.com/sharyanto/perl-Perinci-Sub-Property-drops_privilege"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 

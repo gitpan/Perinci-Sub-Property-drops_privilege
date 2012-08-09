@@ -1,9 +1,9 @@
 NAME
-    Perinci::Sub::property::drops_privilege - Declare that function drops
+    Perinci::Sub::Property::drops_privilege - Declare that function drops
     privilege during running
 
 VERSION
-    version 0.04
+    version 0.05
 
 SYNOPSIS
      # in your function metadata

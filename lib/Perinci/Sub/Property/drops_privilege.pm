@@ -1,4 +1,4 @@
-package Perinci::Sub::property::drops_privilege;
+package Perinci::Sub::Property::drops_privilege;
 
 use 5.010;
 use strict;
@@ -6,7 +6,7 @@ use warnings;
 
 use Perinci::Util qw(declare_property);
 
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 declare_property(
     name => 'drops_privilege',
@@ -43,11 +43,11 @@ __END__
 
 =head1 NAME
 
-Perinci::Sub::property::drops_privilege - Declare that function drops privilege during running
+Perinci::Sub::Property::drops_privilege - Declare that function drops privilege during running
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 

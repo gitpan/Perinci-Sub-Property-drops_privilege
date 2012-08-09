@@ -7,7 +7,7 @@ META.json
 META.yml
 README
 dist.ini
-lib/Perinci/Sub/property/drops_privilege.pm
+lib/Perinci/Sub/Property/drops_privilege.pm
 t/00-compile.t
 t/01-basics.t
 t/release-pod-coverage.t
